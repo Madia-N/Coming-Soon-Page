@@ -1,0 +1,76 @@
+body, html {
+    min-width: 100%;
+    min-height: 100vh;
+    margin:0;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+
+#logo {
+    margin: 15px auto;
+    display: block;
+}
+#athlete-mobile {
+    background: blue url("/img/athlete-mobile.png") no-repeat right top;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+.all-content-container {
+    padding: 20px 30px;
+}
+.text-content-container {
+    text-align: center;
+    width: 100%;
+}
+
+h2,p {
+    margin: 0;
+}
+
+h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    line-height: 28px;
+    margin: 20px 0 40px;
+}
+
+h2:nth-of-type(1) {
+    color: #CD3A24;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 48px;
+}
+h2:nth-of-type(2) {
+    color: #423A3A;
+    font-weight: 700;
+    line-height: 50px;
+}
+form {
+    display: flex;
+}
+input[type="text"] {
+    padding: 0 20px;
+    width: 75%;
+    height: 50px;
+}
+input[type="submit"] {
+    width: 20%;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+    font-size: 18px;
+    font-weight:700;
+
+}
